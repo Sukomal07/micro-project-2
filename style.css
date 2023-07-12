@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .container{
     position: relative;
@@ -155,7 +156,7 @@
 .left{
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
 }
@@ -164,7 +165,7 @@
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
-    width: 180px;
+    width: 250px;
     text-align: center;
 }
 .info{
@@ -203,7 +204,7 @@
 }
 .next{
     position: absolute;
-    right: 10%;
+    right: 13%;
     bottom: 10%;
 }
 .next button{
